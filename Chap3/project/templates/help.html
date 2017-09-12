@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block content %}
+<h3 id="help_h3">帮助信息</h3>
+<ul id="help_ul">
+  {% for item in help_value %}
+  <li> {{ item|e }} </li>
+  {% endfor %}
+</ul>
+{% endblock %}

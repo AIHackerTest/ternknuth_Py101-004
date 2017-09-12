@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>City Wealth</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}" /> 
+  </head>
+  
+  <body>
+    
+    <div id="form_div">
+      <h1 id="form_h1">天气查询</h1>
+      <p id="form_p">
+	<form action="." method="post">
+	  城市：
+	  <input name="city_name" type="text" />
+	  <input name="button" type="submit" value="查询" />
+	  <input name="button" type="submit" value="历史" />
+	  <input name="button" type="submit" value="帮助" /> 
+	</form>
+      </p>
+    </div>
+
+    <div id="block_div">
+      {% block content %}
+      {% endblock %}
+    </div>
+    
+  </body>
+</html>

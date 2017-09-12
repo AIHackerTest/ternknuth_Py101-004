@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+{% block content %}
+<h3 id="history_h3">历史查询信息</h3>
+<table id="history_table">
+  {% for item in history_value %}
+  <tr>
+    {% for cell in item %}
+    {% if cell == item[1] %}
+        {{ pass }} 
+    {% else %}
+        <td id="history_td">{{ cell|e }} </td>
+    {% endif %}
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

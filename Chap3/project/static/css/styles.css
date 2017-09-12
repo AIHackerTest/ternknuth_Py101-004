@@ -1,0 +1,62 @@
+#form_div {
+    max-width: 600px;
+    margin: 0 auto; 
+    background-color:#F5F5F5;
+    text-align:center;
+    padding:5px;
+}
+
+#form_h1 {
+    text-align:center;
+}
+
+#form_p {
+    text-align:center;
+    font-size:16px;
+}
+
+
+#block_div {
+    max-width: 600px;
+    margin: 0 auto; 
+    background-color:#FAFAFA;
+    text-align:left;
+    padding:5px;
+}
+
+
+#city_p {
+    text-align:center;
+    font-size:24px;
+    color:#8B0000;
+}
+
+
+#help_h3 {
+    text-align:left;
+    color:#191970;
+}
+
+#help_ul {
+    list-style-type:square;
+    line-height:2;		
+    color:#191970;
+    font-size:16px;
+}
+
+
+#history_h2 {
+    text-align:center;
+}
+
+#history_table
+{
+    border-collapse:separate;
+    border-spacing:30px 20px;
+    
+}
+
+#history_td
+{
+    text-align:left;
+}

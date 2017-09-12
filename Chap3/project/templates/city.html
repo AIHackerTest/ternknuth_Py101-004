@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block content %}
+{{ super() }}
+{% for item in city_value %}
+{% if item == city_value[1] %}
+    <p id="city_p">  <img src={{ url_for('static', filename='image/{0}.png'.format(item)) }} >  </p>
+{% else %}
+    <p id="city_p">{{item}}</p>
+{% endif %}
+{% endfor %}
+{% endblock %}
